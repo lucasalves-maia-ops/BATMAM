@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-color: #880202;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+HEADER {
+    background-color: #030b27;
+    text-align: center;
+    padding: 40px;
+}
+
+HEADER h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+
+}
+
+NAV {
+    background-color: #030b27;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    
+    top:0;
+}
+
+
+NAV a {
+    color: rgb(194, 6, 0);
+    text-decoration: none;
+    margin:  15px;
+    font-weight: bold;
+}
+
+
+
+nav a:hover {
+    color: rgb(83, 0, 0);
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    color: rgb(7, 2, 77);
+    border-bottom: 2px solid rgb(7, 2, 77);
+    padding-bottom: 10px;
+}
+
+.banner img {
+    width: 40%;
+    border-radius: 15px;
+    display: block;
+    margin: auto;  
+}
+
+.personagem {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #030b27;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.card:hover {
+   background-color: rgb(100, 2, 2);
+   transform: scale(1.05);
+}
+
+.botao{
+    background-color: rgb(7, 2, 77);
+    color: aliceblue;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: rgb(83, 0, 0);
+}
+
+FOOTER {
+    background-color: #030b27;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
