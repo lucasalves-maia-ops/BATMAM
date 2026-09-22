@@ -112,3 +112,37 @@ FOOTER {
     padding: 30px;
     margin-top: 50px;
 }
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+table {
+   border-collapse: collapse;
+   min-width: 650px;
+   width: 100%;
+   BACKGROUND-COLOR: #030b27;
+   
+}
+
+caption {
+   color: rgb(7, 2, 77);
+   font-weight: bold;
+   margin-bottom: 16px;
+   text-align: center;
+  
+}
+
+td {
+   border: 1px solid #ddd;
+   padding: 14px;
+   text-align: left;
+}
+
+th {
+    background-color: rgb(7, 1, 102);
+}
+
+tbody tr:nth-child(even) {
+   background-color: #00165e;
+}
